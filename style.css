@@ -1,0 +1,58 @@
+/* Define a cor de fundo da página */
+body {
+    background-color: #ebd2d2;
+    color: #3f0606;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+  
+  /* Estiliza a navbar */
+  .navbar {
+    padding: 1rem 2rem;
+    border-bottom: 2px solid #450404;
+  }
+  
+  .navbar-brand {
+    font-size: 1.5rem;
+    font-weight: bold;
+  }
+  
+  .nav-link {
+    color: #5e0f0f !important;
+    transition: color 0.3s;
+  }
+  
+  .nav-link:hover {
+    color: #e94e4e !important;
+  }
+  
+  /* Dropdown menu com fundo escuro */
+  .dropdown-menu {
+    background-color: #210202;
+  }
+  
+  .dropdown-item {
+    color: #ffffff;
+  }
+  
+  .dropdown-item:hover {
+    background-color: #2c0303;
+    color: #cc1b1b;
+  }
+  
+  /* Campo de busca */
+  .form-control {
+    background-color: #ec7373;
+    color: #ef0b0b;
+    border: 1px solid #5a0505;
+  }
+  
+  .btn-outline-success {
+    color: #290404;
+    border-color: #e3bdbd;
+  }
+  
+  .btn-outline-success:hover {
+    background-color: #f23f3f;
+    color: #000;
+  }
+  
